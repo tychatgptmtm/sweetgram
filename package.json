@@ -1,0 +1,9 @@
+{
+  "name": "sweetgram",
+  "version": "1.0.0",
+  "description": "sweetgram — минималистичный мессенджер: вход по почте, поиск по юзернейму, чаты в реальном времени",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "pg": "^8.12.0", "ws": "^8.18.0" }
+}
